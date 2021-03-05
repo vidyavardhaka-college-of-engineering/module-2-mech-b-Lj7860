@@ -9,7 +9,7 @@ void main()
 	int i,n;
 	
 	scanf("%d",&n);
-	3
+	
 	for(i=1;i<=n;i++)
   {
 		printf("%d\t",i,n);
