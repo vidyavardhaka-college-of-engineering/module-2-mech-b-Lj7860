@@ -7,11 +7,11 @@
 void main()
 {
 	int i,n;
-  printf("Enter upper limit:");
+  printf("INPUT  -");
 	scanf("%d",&n);
-	printf("PRINTING FIRST N NATURAL NUMBERS:");
-	for(i=1;i<=n;i++)
-  printf("%d\t",i,n);
-  	return ;
+	printf("OUTPUT - ");
+	for(i=1; i<=n; i++)
+  printf("%d\t",i);
+}	
 	//Fill the missing code here
- }
+  
