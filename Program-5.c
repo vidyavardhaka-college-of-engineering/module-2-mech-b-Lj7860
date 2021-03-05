@@ -3,15 +3,11 @@
 
 
 #include <stdio.h>
- 
-#include <stdio.h>
- 
-int main()
+ int main()
 {
    int a[10],i,sum=0,n;
    printf("Enter number of elements in array and the array elements");
    scanf("%d", &n);
-   printf("Enter the elements of the array");
    for(i = 0; i < n; i++)
    {
       scanf("%d",&a[i]);
