@@ -7,12 +7,12 @@
 void main()
 {
 	int i,n;
-	printf("Enter upper limit : ");
-	scanf("%d",&n);
 	
+	scanf("%d",&n);
+	3
 	for(i=1;i<=n;i++)
   {
-		printf("%d\n",i);
+		printf("%d\t",i,n);
   }
 		return ;
 	//Fill the missing code here
