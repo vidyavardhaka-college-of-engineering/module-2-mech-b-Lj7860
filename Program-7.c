@@ -5,15 +5,18 @@
 #include<stdio.h>
 	int main()
 	{
-	  int a[10],i,n;
+	  int a[3],i,n;
 	  printf("Enter size of the array and the array elements");
 	  scanf("%d",&n);
-	  printf("Array elements in reverse order:");
-    for(i=0;i<n;i++);
+	  for(i=0;i<n;i++);
+    {
 	  scanf("%d",&a[i]);//missing code
+    }
+    printf("Reversed array is:\n");
 	  for(i=n-1;i>=0;--i)
-	  { //missing code
-	  printf("%d ",a[i]);
+    {
+	   //missing code
+	  printf("%d\n",a[i]);
     }
 	  return(0);
 	}

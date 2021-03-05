@@ -11,7 +11,9 @@ void main()
 	scanf("%d",&n);
 	
 	for(i=1;i<=n;i++)
-		printf("%d\t",i,n);
+  {
+		printf("%d\n",i);
+  }
 		return ;
 	//Fill the missing code here
  }
