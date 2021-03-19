@@ -7,11 +7,9 @@
 void main()
 {
 	int i,n;
-  printf("INPUT  -");
-	scanf("%d",&n);
-	printf("OUTPUT - ");
+  scanf("%d",&n);
 	for(i=1; i<=n; i++)
-  printf("%d\t",i);
+  printf("%d ",i);
 }	
 	//Fill the missing code here
   
